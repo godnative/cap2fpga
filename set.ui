@@ -117,11 +117,11 @@
     <item>
      <widget class="QComboBox" name="selectbaud">
       <property name="currentText">
-       <string>4800</string>
+       <string>115200</string>
       </property>
       <item>
        <property name="text">
-        <string>4800</string>
+        <string>115200</string>
        </property>
       </item>
       <item>
@@ -136,7 +136,7 @@
       </item>
       <item>
        <property name="text">
-        <string>115200</string>
+        <string>460800</string>
        </property>
       </item>
      </widget>
@@ -145,6 +145,13 @@
      <widget class="QPushButton" name="openserial">
       <property name="text">
        <string>打开串口</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="closeserial">
+      <property name="text">
+       <string>关闭串口</string>
       </property>
      </widget>
     </item>
