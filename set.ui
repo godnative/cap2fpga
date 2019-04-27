@@ -24,35 +24,35 @@
    </property>
    <layout class="QHBoxLayout" name="horizontalLayout">
     <item>
-     <widget class="QPushButton" name="loadbt">
+     <widget class="QPushButton" name="bt_loadvideo">
       <property name="text">
        <string>打开</string>
       </property>
      </widget>
     </item>
     <item>
-     <widget class="QPushButton" name="startbt">
+     <widget class="QPushButton" name="bt_start">
       <property name="text">
        <string>开始</string>
       </property>
      </widget>
     </item>
     <item>
-     <widget class="QPushButton" name="stopbt">
+     <widget class="QPushButton" name="bt_stop">
       <property name="text">
        <string>暂停</string>
       </property>
      </widget>
     </item>
     <item>
-     <widget class="QPushButton" name="endbt">
+     <widget class="QPushButton" name="bt_end">
       <property name="text">
        <string>结束</string>
       </property>
      </widget>
     </item>
     <item>
-     <widget class="QLCDNumber" name="fpslcd"/>
+     <widget class="QLCDNumber" name="lcd_fpsshow"/>
     </item>
    </layout>
   </widget>
@@ -81,7 +81,7 @@
      <x>620</x>
      <y>20</y>
      <width>111</width>
-     <height>151</height>
+     <height>171</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout_2">
@@ -99,7 +99,7 @@
      </widget>
     </item>
     <item>
-     <widget class="QComboBox" name="selectcom"/>
+     <widget class="QComboBox" name="cb_selectcom"/>
     </item>
     <item>
      <widget class="QLabel" name="label_3">
@@ -115,7 +115,7 @@
      </widget>
     </item>
     <item>
-     <widget class="QComboBox" name="selectbaud">
+     <widget class="QComboBox" name="cb_selectbaud">
       <property name="currentText">
        <string>115200</string>
       </property>
@@ -142,22 +142,32 @@
      </widget>
     </item>
     <item>
-     <widget class="QPushButton" name="openserial">
+     <widget class="QPushButton" name="bt_openserial">
       <property name="text">
        <string>打开串口</string>
       </property>
      </widget>
     </item>
     <item>
-     <widget class="QPushButton" name="closeserial">
+     <widget class="QPushButton" name="bt_closeserial">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
       <property name="text">
        <string>关闭串口</string>
       </property>
      </widget>
     </item>
+    <item>
+     <widget class="QPushButton" name="bt_datasend">
+      <property name="text">
+       <string>发送数据</string>
+      </property>
+     </widget>
+    </item>
    </layout>
   </widget>
-  <widget class="QTextEdit" name="serialshow">
+  <widget class="QTextEdit" name="text_serialshow">
    <property name="geometry">
     <rect>
      <x>20</x>
