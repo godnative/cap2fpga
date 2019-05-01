@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>745</width>
+    <width>738</width>
     <height>648</height>
    </rect>
   </property>
@@ -117,8 +117,13 @@
     <item>
      <widget class="QComboBox" name="cb_selectbaud">
       <property name="currentText">
-       <string>115200</string>
+       <string>921600</string>
       </property>
+      <item>
+       <property name="text">
+        <string>921600</string>
+       </property>
+      </item>
       <item>
        <property name="text">
         <string>115200</string>
@@ -176,6 +181,32 @@
      <height>111</height>
     </rect>
    </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>430</y>
+     <width>111</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <widget class="QPushButton" name="bt_record">
+      <property name="text">
+       <string>录制文件</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="bt_savecoe">
+      <property name="text">
+       <string>保存文件</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
   </widget>
  </widget>
  <resources/>
